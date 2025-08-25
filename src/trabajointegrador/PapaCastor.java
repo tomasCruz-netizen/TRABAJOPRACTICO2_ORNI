@@ -34,10 +34,10 @@ public class PapaCastor {
     
     
     public void nadar(){
-     int ram = (int)(Math.random() * 9 );
-     if( ram!= 0){
-    System.out.println("Toy nadando a una velocidad de: " + ram + " km/h" );
-    this.setVelocidad(ram);
+     int random = (int)(Math.random() * 9 );
+     if( random!= 0){
+    System.out.println("Toy nadando a una velocidad de: " + random + " km/h" );
+    this.setVelocidad(random);
      }else {
          System.out.println("Ta morido");
      }
