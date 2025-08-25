@@ -23,5 +23,6 @@ public class OrniVerde extends PapaCastor implements MamaPata {
              super.tocarGuitarra();
              tocarOrgano();
         System.out.println("Cuak cuaK ");
+        System.out.println("cuak");
     }
 }

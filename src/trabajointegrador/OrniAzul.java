@@ -14,6 +14,7 @@ public class OrniAzul extends PapaCastor{
     public OrniAzul(double propulsion, double cola, double velocidad) {
         super(cola);
         this.propulsion = propulsion;
+        System.out.println("");
     }
 
     
@@ -24,6 +25,7 @@ public class OrniAzul extends PapaCastor{
 
     public void setPropulsion(double propulsion) {
         this.propulsion = propulsion;
+        System.out.println("");
     }
     
     @Override
@@ -34,7 +36,9 @@ public class OrniAzul extends PapaCastor{
         double velo = super.getVelocidad();
     double velocidadNueva  = velo + propulsion;
     System.out.println("Toy nadando a una velocidad " + velocidadNueva + " km/s");
+    /////
     
+        System.out.println("Esto funciona perfecto");
    }
     
     
