@@ -48,6 +48,7 @@ public class PapaCastor {
            int ram = (int) (Math.random() * 6 ) + 1 ;
             cuerda = ram ;
             System.out.println("Tocaste la cuerda " + cuerda);
+            System.out.println("despierta los vecinos con los ruidos ");
         }
       
     }
